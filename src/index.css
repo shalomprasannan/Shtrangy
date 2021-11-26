@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  overflow: hidden;
+  /*background-image: linear-gradient(to top left,#44d49f,#449fd4);
+  color:white;*/
+  min-height:100vh;
+}
+
+.Link{
+  -webkit-user-drag: none;
+}
