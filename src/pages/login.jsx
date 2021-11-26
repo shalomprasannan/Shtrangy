@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  { Grid, Button, Card, CardActions, CardContent, Divider, FormControl, TextField, CardMedia } from '@mui/material'
-import pexels from './pexels.jpeg'
+const pexels = require('./pexels.jpeg');
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
