@@ -122,9 +122,6 @@ class App extends React.Component {
                     <Route exact path="/myprofile" >
                         <MyProfile {...this.state} {...propsMethod}/>
                     </Route>
-                    <Route path="/" >
-                        <Redirect to="/login" />
-                    </Route>
                 </Switch>
             </Router>
         )
